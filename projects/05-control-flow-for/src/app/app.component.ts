@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
       @for (car of carList; track car) {
         <article class="listing">
           <div class="image-parent">
-            <img class="product-image" src={{car.imageSource}} />
+            <img class="product-image" [src]=car.imageSource />
           </div>
           <section class="details">
             <p class="title">{{car.make}}: {{car.model}}</p>
