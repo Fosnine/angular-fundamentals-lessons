@@ -9,7 +9,6 @@ import {UserinfoComponent} from "./userinfo/userinfo.component";
     <section class="main">
       <h1>Metrics and Figures Dashboard</h1>
       <section class="content">
-        <article class="tile"></article>
         <article class="tile">
           <app-userinfo/>
         </article>
